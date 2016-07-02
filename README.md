@@ -5,3 +5,4 @@ I've been trying to setup a workflow where I can debug mocha-tests against NodeJ
 2. put a breakpoint in the test.js
 3. run the mocha debug to let the breakpoint hit,and track.
 
+related issue: https://github.com/Microsoft/vscode/issues/3701
