@@ -1,0 +1,31 @@
+{
+  "name": "vscode-mocha-issue",
+  "version": "1.0.0",
+  "description": "demonstrate the debug issue when debug mocha tests targeting es6",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.10.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "body-parser": "^1.15.2",
+    "classnames": "^2.2.3",
+    "cookie-parser": "^1.4.3",
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "build": "babel server --out-dir build/server --source-maps inline"
+  },
+  "author": "",
+  "license": "ISC"
+}
